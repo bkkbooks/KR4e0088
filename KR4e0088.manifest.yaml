@@ -1,0 +1,129 @@
+canonical_identifier: bkk:krp/KR4e0088/v1
+canonical_location: https://kanripo.org/bkk/KR4e0088/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 頤庵文選,鄒緝,原序[臞仙
+  date: '2015-08-25 00:19:12.183145'
+  source:
+    repository: kanripo
+    path: KR4e0088
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - seq: 0
+    filename: KR4e0088_000.yaml
+    hash: sha256:9461f0744926b8d70ddbf4952834e80395fd910b16af5d44c8a07f53ea9cc760
+  - seq: 1
+    filename: KR4e0088_001.yaml
+    hash: sha256:9b5e52bd587d4411b55df18580385e36b66330301d93a451f5212df64b1b2a9a
+  - seq: 2
+    filename: KR4e0088_002.yaml
+    hash: sha256:7c0d5d6136777d49916fdc25fe85991b13d029bf59f3e2ac866360d6a96bf042
+  markers:
+  - seq: 0
+    role: markers
+    filename: assets/KR4e0088_000.markers.yaml
+    hash: sha256:f8e6974daf462e1241cf8883b67484bcd7da0ed7144eb1a73c525516cd509910
+  - seq: 1
+    role: markers
+    filename: assets/KR4e0088_001.markers.yaml
+    hash: sha256:bab9b72b810b8733550ea154cf77a6b597949dc59315afcd6e3a5c2d83a95350
+  - seq: 2
+    role: markers
+    filename: assets/KR4e0088_002.markers.yaml
+    hash: sha256:8c999134b33483a429b1c3f8f9a8af6f8c0afa51c824d42d7b0e5474cf274374
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4e0088_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 308
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4e0088_WYG_000-3a
+    span:
+    - body
+    - 308
+    - 3528
+  label: 原序臞仙熊釗胡廣鄒緝楊士竒
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4e0088_WYG_000-13a
+    span:
+    - body
+    - 3528
+    - 4403
+  label: 原序臞仙王洪
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4e0088_WYG_000-16a
+    span:
+    - body
+    - 4403
+    - 5278
+  label: 原序臞仙王洪
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4e0088_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 41152
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4e0088_WYG_001-133a
+    span:
+    - body
+    - 41152
+    - 41158
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4e0088_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 31911
+  label: 卷下
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4e0088_WYG_002-123a
+    span:
+    - body
+    - 31911
+    - 31917
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:9292e0d4539870911c81d17d7f8fbd861924698a27b6afc08f4173fad60ba953
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
